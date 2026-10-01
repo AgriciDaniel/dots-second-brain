@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "overview",
+      "type": "file",
+      "file": "wiki/overview.md",
+      "x": 520,
+      "y": 0,
+      "width": 260,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "dots",
+      "type": "file",
+      "file": "wiki/entities/OpenAI Dots.md",
+      "x": 520,
+      "y": 140,
+      "width": 260,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "c0",
+      "type": "file",
+      "file": "wiki/concepts/Dot Access and Plans.md",
+      "x": -200,
+      "y": 300,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "c1",
+      "type": "file",
+      "file": "wiki/concepts/Dot Cloud Computer.md",
+      "x": 90,
+      "y": 300,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "c2",
+      "type": "file",
+      "file": "wiki/concepts/Dot Context and Memory.md",
+      "x": 380,
+      "y": 300,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "c3",
+      "type": "file",
+      "file": "wiki/concepts/Dot Safety Controls.md",
+      "x": 670,
+      "y": 300,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "c4",
+      "type": "file",
+      "file": "wiki/concepts/Dot Skills and Plugins.md",
+      "x": 960,
+      "y": 300,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "c5",
+      "type": "file",
+      "file": "wiki/concepts/Vault Durability and Backup.md",
+      "x": 1250,
+      "y": 300,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "q0",
+      "type": "file",
+      "file": "wiki/questions/Can a dot load this vault automatically.md",
+      "x": 80,
+      "y": 460,
+      "width": 320,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "q1",
+      "type": "file",
+      "file": "wiki/questions/Which dots setup proposals to adopt.md",
+      "x": 440,
+      "y": 460,
+      "width": 320,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "q2",
+      "type": "file",
+      "file": "wiki/questions/Open Dot Integration Tests.md",
+      "x": 800,
+      "y": 460,
+      "width": 320,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "cmp",
+      "type": "file",
+      "file": "wiki/comparisons/Vault Storage Options Compared.md",
+      "x": 1180,
+      "y": 460,
+      "width": 300,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "alpha",
+      "type": "file",
+      "file": "wiki/entities/Alpha.md",
+      "x": 120,
+      "y": 140,
+      "width": 260,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "guide",
+      "type": "file",
+      "file": "wiki/meta/Vault Guide.md",
+      "x": 920,
+      "y": 140,
+      "width": 260,
+      "height": 60,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "dots-c0",
+      "fromNode": "dots",
+      "fromSide": "bottom",
+      "toNode": "c0",
+      "toSide": "top"
+    },
+    {
+      "id": "dots-c1",
+      "fromNode": "dots",
+      "fromSide": "bottom",
+      "toNode": "c1",
+      "toSide": "top"
+    },
+    {
+      "id": "dots-c2",
+      "fromNode": "dots",
+      "fromSide": "bottom",
+      "toNode": "c2",
+      "toSide": "top"
+    },
+    {
+      "id": "dots-c3",
+      "fromNode": "dots",
+      "fromSide": "bottom",
+      "toNode": "c3",
+      "toSide": "top"
+    },
+    {
+      "id": "dots-c4",
+      "fromNode": "dots",
+      "fromSide": "bottom",
+      "toNode": "c4",
+      "toSide": "top"
+    },
+    {
+      "id": "dots-c5",
+      "fromNode": "dots",
+      "fromSide": "bottom",
+      "toNode": "c5",
+      "toSide": "top"
+    },
+    {
+      "id": "c5-cmp",
+      "fromNode": "c5",
+      "fromSide": "bottom",
+      "toNode": "cmp",
+      "toSide": "top"
+    },
+    {
+      "id": "c2-q0",
+      "fromNode": "c2",
+      "fromSide": "bottom",
+      "toNode": "q0",
+      "toSide": "top"
+    },
+    {
+      "id": "c4-q2",
+      "fromNode": "c4",
+      "fromSide": "bottom",
+      "toNode": "q2",
+      "toSide": "top"
+    },
+    {
+      "id": "overview-dots",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "dots",
+      "toSide": "top"
+    },
+    {
+      "id": "overview-alpha",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "alpha",
+      "toSide": "top"
+    },
+    {
+      "id": "overview-guide",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "guide",
+      "toSide": "top"
+    },
+    {
+      "id": "alpha-q1",
+      "fromNode": "alpha",
+      "fromSide": "bottom",
+      "toNode": "q1",
+      "toSide": "top"
+    }
+  ]
+}

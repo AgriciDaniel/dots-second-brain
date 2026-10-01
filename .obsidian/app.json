@@ -1,0 +1,10 @@
+{
+  "newLinkFormat": "absolute",
+  "userIgnoreFilters": [
+    ".raw/",
+    ".vault-meta/",
+    ".github/"
+  ],
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false
+}

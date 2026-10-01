@@ -1,0 +1,105 @@
+{
+  "address_map": {},
+  "description": "Ingest delta tracker. Source payloads are create-only.",
+  "sources": {
+    ".raw/sources/2026-10-01-dot-integration-review.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/OpenAI Docs - Dot Integrations and Controls.md"
+      ],
+      "sha256": "bbbcfabd067f9e6f2c04ec3c1d2113d04a2d52108717ea8fad49178abdba42e7"
+    },
+    ".raw/sources/2026-10-01-dots-access-and-limits.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Dots Access, Plans and Limits.md"
+      ],
+      "sha256": "97f585ecaa2be7252e970ba25cf2663e7245d39ee5a66480b9dd6df0edcad18a"
+    },
+    ".raw/sources/2026-10-01-dots-community-resources.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Dots Community Resources.md"
+      ],
+      "sha256": "ec56c29dab14d130979b16a17f1146180f0d065ec3316c1a0ac8726db57055ad"
+    },
+    ".raw/sources/2026-10-01-dots-context-and-schedules.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Dots Context and Saved Schedules.md"
+      ],
+      "sha256": "09f347ddbfe552a574815cbcaa5691150596132b20a358e7807f4f2dfbcc9e54"
+    },
+    ".raw/sources/2026-10-01-dots-safety-controls.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Dots Safety Controls and Risks.md"
+      ],
+      "sha256": "8f3b9205964e1b13fe29912a14d05db94e4ec702becb9cc938cb367057c17645"
+    },
+    ".raw/sources/2026-10-01-dots-skills-plugins-import.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Dots Skills, Plugins and Import.md"
+      ],
+      "sha256": "e725ecd1040670df38bd5181ae9057db59946e4552b45996d402152d8da2e8a4"
+    },
+    ".raw/sources/2026-10-01-dots-storage-options.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Dots Storage Options.md"
+      ],
+      "sha256": "b03a0f8d4fb7b44763e43c61dba95fdda6422841468c12818d6eea0061d45b29"
+    },
+    ".raw/sources/2026-10-01-official-backup.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Obsidian Docs - Backup.md"
+      ],
+      "sha256": "3d0e6b5dfe1f83600dd7a6a5b3f75643e7c10f79a6d6c3c3e50d7395af6fc5f2"
+    },
+    ".raw/sources/2026-10-01-official-build.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/OpenAI Docs - Build Skills.md"
+      ],
+      "sha256": "4edee3b394297ff174b33929646a507125fc4979f2ea3e8d13a267637e365b6b"
+    },
+    ".raw/sources/2026-10-01-official-cloud.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/OpenAI Docs - Dot Cloud Computer.md"
+      ],
+      "sha256": "f6891e9ac995e9322b5ae6e551749d437f470d7519aed3990d8fe2f5b2e555a5"
+    },
+    ".raw/sources/2026-10-01-official-context.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/OpenAI Docs - Dot Tasks and Memory.md"
+      ],
+      "sha256": "a28cd1a00a1fa8251eff1e51ea78715f19105ef49c2ee973756c6892da8c8e9c"
+    },
+    ".raw/sources/2026-10-01-official-plugins.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Obsidian Docs - Plugin Security.md"
+      ],
+      "sha256": "c14996191b12f7c83cb78f69ed635aca652f13e9f6a144349530de55427a880b"
+    },
+    ".raw/sources/2026-10-01-official-skills.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/OpenAI Docs - Skills and Plugins.md"
+      ],
+      "sha256": "3dae57b8dc2a4726a8e23af74df4069310d0ed5ef29ef741653da812ac35f844"
+    },
+    ".raw/sources/2026-10-01-official-storage.md": {
+      "ingested_at": "2026-10-01",
+      "pages_created": [
+        "wiki/sources/Obsidian Docs - How Obsidian Stores Data.md"
+      ],
+      "sha256": "e4acf47fa0f001c4909b4f081c1d9d832a57e81fb04a447ae8bb214f2633b0f0"
+    }
+  },
+  "version": 1
+}
